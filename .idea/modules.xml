@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ATB9xJavaPrograme.iml" filepath="$PROJECT_DIR$/ATB9xJavaPrograme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PhysicsWallahJavaPrograming/PhysicsWallahJavaPrograming.iml" filepath="$PROJECT_DIR$/../PhysicsWallahJavaPrograming/PhysicsWallahJavaPrograming.iml" />
     </modules>
   </component>
 </project>
