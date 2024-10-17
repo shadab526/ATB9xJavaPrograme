@@ -1,4 +1,4 @@
-package Task.ex_15_10_2024;
+package Task.ex_15_10_24;
 
 public class Lab006_Dicreament {
     public static void main(String[] args) {
