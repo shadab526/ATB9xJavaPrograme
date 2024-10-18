@@ -4,25 +4,23 @@ public class Lab008_TriangleClassifier {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter side 1 value:");
-        int side1 = sc.nextInt();
+        double side1 = sc.nextDouble();
         System.out.println("Enter side 2 value:");
-        int side2 = sc.nextInt();
+        double side2 = sc.nextDouble();
         System.out.println("Enter side 3 value:");
-        int side3 = sc.nextInt();
-        if (side1==side2 && side2==side3){
+        double side3 = sc.nextDouble();
+        if (side1<=0 || side2<=0 || side3<=0){
+            System.out.println("Invalid Input: Side length must be positive.");
+        }
+        else if (side1==side2 && side2==side3 && side1==side3) {
             System.out.println("Triangle is Equilateral");
-        } else if (side1==side2) {
+        } else if (side1==side2 || side1 == side3 ||side2 == side3) {
             System.out.println("Triangle is Isosceles");
         }
-        else if (side1==side3) {
-            System.out.println("Triangle is Isosceles");
-        }
-        else if (side2==side3) {
-            System.out.println("Triangle is Isosceles");
-        }
-        else{
+          else{
             System.out.println("Triangle is Scalene");
         }
+
 
     }
 }
