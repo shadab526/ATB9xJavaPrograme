@@ -5,24 +5,27 @@ public class Lab007_GradeCalculator {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Score: ");
         int num = sc.nextInt();
+        char grade = 'F';
         if(num>=90 && num<=100){
-            System.out.println('A');
+           grade = 'A';
         }
         else if (num>=80 && num<=89){
-            System.out.println('B');
+            grade = 'B';
         }
         else if(num>=70 && num<=79){
-            System.out.println('C');
+            grade = 'C';
         }
         else if(num>=60 && num<=69){
-            System.out.println('D');
+            grade = 'D';
         }
         else if (num>=0 && num <=59){
-            System.out.println('F');
+            grade = 'F';
         }
         else{
             System.out.println("Number should be in between 0 to 100");
+            grade = 0;
         }
+        System.out.println(grade);
 
     }
 }
