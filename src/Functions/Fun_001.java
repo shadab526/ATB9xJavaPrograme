@@ -1,5 +1,7 @@
 package Functions;
 
+import java.lang.invoke.StringConcatFactory;
+
 public class Fun_001 {
     public static void main(String[] args) {
         // 1.	Without Parameter and without Return Type.
@@ -15,6 +17,15 @@ public class Fun_001 {
         else {
             System.out.println("You can not vote");
         }
+        //  3. with parameter without return type
+        greed_with_your_name("Shadab");
+
+        // 3.  with parameter without return type
+        int result = sum_of_two_number(5,7);
+        System.out.println("Sum of 2 number is"+" "+result);
+
+
+        //-------------------------------------------------------------------------------
 
     }
     // 1.	Without Parameter and without Return Type.
@@ -32,5 +43,16 @@ public class Fun_001 {
     static  int age_of_vote(){
         System.out.println("Vote age returned!");
         return 17;
+    }
+
+    //3. with parameter without return type
+    static void greed_with_your_name(String name){
+        System.out.println("Hi your name is"+" "+ name);
+
+    }
+    // 4. with parameter with return type
+    static int sum_of_two_number(int a, int b){
+
+        return a+b;
     }
 }
