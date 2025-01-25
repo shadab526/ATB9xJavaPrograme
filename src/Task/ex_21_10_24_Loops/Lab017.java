@@ -1,12 +1,14 @@
 package Task.ex_21_10_24_Loops;
-
+import java.util.Scanner;
 public class Lab017 {
     public static void main(String[] args) {
-        for (char c='z'; c>='a';c--){
-            if(c=='p'){
-                break;
-            }
-            System.out.println(c);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+        int sum = 0;
+        for (int i=0; i<=n;i++){
+           sum = sum+i;
         }
+        System.out.println("Sum of entered number is: "+sum);
     }
 }

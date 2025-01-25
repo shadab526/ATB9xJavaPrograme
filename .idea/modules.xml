@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/ATB9xJavaPrograme.iml" filepath="$PROJECT_DIR$/ATB9xJavaPrograme.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PhysicsWallahJavaPrograming/PhysicsWallahJavaPrograming.iml" filepath="$PROJECT_DIR$/../PhysicsWallahJavaPrograming/PhysicsWallahJavaPrograming.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Shadab_Java/Shadab_Java.iml" filepath="$PROJECT_DIR$/../Shadab_Java/Shadab_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/main/main.iml" filepath="$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/main/main2.iml" filepath="$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/test/test.iml" filepath="$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/test/test2.iml" filepath="$PROJECT_DIR$/../ATB9xAPIAutomationPrograms/src/test/test2.iml" />
     </modules>
   </component>
 </project>
